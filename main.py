@@ -1,4 +1,3 @@
-import os
 import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -6,7 +5,6 @@ from selenium.webdriver.support.relative_locator import locate_with
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 import pandas as pd
-import argparse
 import json
 
 def get_value(course_name, course_num):
@@ -44,9 +42,6 @@ def get_value(course_name, course_num):
     return val
 
 if __name__ == "__main__":
-    
-    # Command line arguments
-    parser = argparse.ArgumentParser(description='Check for an open class')
     
     # Parameters are defined
     params_file = "params.json"

@@ -1,4 +1,4 @@
-# CourseCheck
+# empty-class-check
 
 ## Description
 This tool automates checking for an empty space in a class. Run the code on a device until a space opens for the class. This tool uses a Discord Webhook URL to send an automated message on a Discord channel. The suggestion is to create a private channel in Discord. Create a new Webhook by going to channel settings -> Integrations -> Create Webhook. Copy the link to the `params.json` file.

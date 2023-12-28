@@ -1,7 +1,7 @@
 # empty-class-check
 
 ## Description
-This tool automates the process of checking for an empty space in a class by looking at the [Undergraduate Schedule of Classes]("https://classes.uwaterloo.ca/under.html") for the University of Waterloo. Run the code on a device until a space opens for the class. This tool uses a Discord Webhook URL to send an automated message on a Discord channel. My suggestion is to create a private channel in Discord. Create a new Webhook by going to channel settings -> Integrations -> Create Webhook. Copy the link to the `params.json` file. 
+This tool automates the process of checking for an empty space in a class by looking at the [Undergraduate Schedule of Classes](https://classes.uwaterloo.ca/under.html) for the University of Waterloo. Run the code on a device until a space opens for the class. This tool uses a Discord Webhook URL to send an automated message on a Discord channel. My suggestion is to create a private channel in Discord. Create a new Webhook by going to channel settings -> Integrations -> Create Webhook. Copy the link to the `params.json` file. 
 
 Note to Math/CS students of UWaterloo: Run this code on the student server.
 
